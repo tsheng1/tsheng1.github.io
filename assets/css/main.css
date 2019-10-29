@@ -112,6 +112,7 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #49bf9d;
+		font-size: .85em;
 		text-decoration: none;
 	}
 
@@ -2049,7 +2050,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2207,7 +2208,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 3em;
+				font-size: 2em;
 			}
 
 /* Labeled Icons */
@@ -2248,6 +2249,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		justify-content: space-evenly;
 		cursor: default;
 		list-style: none;
 		margin-left: -1em;
@@ -2460,6 +2462,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		border-color: #a2a2a2;
 	}
 
 		input[type="submit"]:hover,
@@ -3221,3 +3224,46 @@ input, select, textarea {
 			}
 
 	}
+
+
+svg {
+	height: 3em;
+	width: 3em;
+}
+
+#four ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#four li {
+	margin: 20px;
+}
+
+.aa-logo {
+	height: 1.5em;
+	width: 1.5em;
+	margin-left: 2em;
+}
+
+#five div {
+	display: flex;
+	margin-bottom: 0;
+}
+
+#five h6 {
+	margin: 0;
+	font-weight: 500;
+	color: #a2a2a2;
+}
+
+#five h4 {
+	margin-bottom: 0;
+}
+
+.jhu-logo {
+	height: 1.5em;
+	width: 1.5em;
+	margin-left: 2em;
+}
